@@ -1,10 +1,76 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,300italic,400italic);
 
 body {
+    background-color: #E4FF1A;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    position: relative;
+    
+}
+header {
+    border: 10px;
+    background-color: #FF5714;
+    
 }
 
-li {
+footer {
+    border: 10px;
+    background-color: #1BE7ff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+}
+
+
+nav li{
     display: inline;
 }
+
+nav a {
+    display: inline;
+    padding: 0em 3em 0em 3em;
+    color: black;
+}
+
+nav a active {
+    display: inline-block;
+    padding: 0em 4em 0em 4em;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#about-me img {
+    float: right;
+}
+
+#portfolio h3, h4, h5, h6 {
+    display: inline;
+    width: auto;
+}
+
+#portfolio li {
+    padding: inherit;
+    border-style: none;
+    margin-bottom: 10;
+}
+
+#portfolio {
+    margin-bottom: 100;
+}
+
+
+h4 {
+    font-style: italic;
+}
+
+h5{
+    color:#FF5714;
+}
+
