@@ -16,7 +16,7 @@ header {
 footer {
     border: 10px;
     background-color: #1BE7ff;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
